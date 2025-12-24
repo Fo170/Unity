@@ -1,0 +1,30 @@
+{
+  "name": "Unity",
+  "version": "1.0.0",
+  "description": "Bibliothèque elle fournit des fonctions pour formater des valeurs physiques avec des unités appropriées en utilisant les préfixes SI (k, M, G, m, µ, n, p, etc.)",
+  "keywords": ["Bibliothèque", "unity", "SI", "ANSI"],
+  "repository": {"type": "git","url": "https://github.com/Fo170/Unity.git"},
+  "authors": [{"name": "Fo170","email": "olivier.fournet@free.fr","url": "https://github.com/Fo170","maintainer": true }],
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/Fo170/Unity",
+  "frameworks": "arduino",
+  "platforms": [ "*" ],
+  "headers": "Unity.h",
+  "examples": [
+  {
+      "name": "Exemples d utilisations",
+      "base": "example",
+      "files": ["Exemple/Exemple.ino"]
+    }
+  ],
+  "export": {
+    "exclude": [
+      ".github",
+      "docs",
+      "tests",
+      "*.md",
+      "*.yml",
+      "*.txt"
+    ]
+  }
+}

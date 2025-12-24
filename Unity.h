@@ -1,4 +1,4 @@
-// valeurs_C_UNITY.h - Librairie d'affichage et gestion des unités scientifiques
+// UNITY.h - Librairie d'affichage et gestion des unités scientifiques
 // Version: 1.0.0
 // Auteur: [FOURNET Olivier]
 // Licence: GPL-3.0 license
@@ -252,5 +252,6 @@ public: \
         return ClassName(valeur / other.valeur); \
     } \
 };
+
 
 #endif // C_UNITY_H

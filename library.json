@@ -15,6 +15,11 @@
       "name": "Exemples d utilisations",
       "base": "example",
       "files": ["Exemple/Exemple.ino"]
+    },
+    {
+      "name": "Surveillance périodique",
+      "base": "example",
+      "files": ["Exemple_Valeurs_SI/main.cpp"]
     }
   ],
   "export": {
@@ -27,4 +32,5 @@
       "*.txt"
     ]
   }
+
 }

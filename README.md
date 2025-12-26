@@ -28,10 +28,10 @@ Une bibliothèque légère et puissante pour formater, manipuler et afficher des
 ```bash
 # Clonez le dépôt dans votre dossier de bibliothèques Arduino
 cd ~/Documents/Arduino/libraries/
-git clone https://github.com/Fo170/Unity.git
+git clone https://github.com/Fo170/Unity.git@^1.0.0
 ```
 ### Méthode 1 : Via PlatformIO (recommandé)
 Ajoutez la dépendance dans votre fichier `platformio.ini` :
 ```ini
 lib_deps = 
-    https://github.com/Fo170/Unity.git
+    https://github.com/Fo170/Unity.git@^1.0.0
